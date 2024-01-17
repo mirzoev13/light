@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/TildaSans.07Web/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <p>Лучшее решение для вашего дома</p>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="logo">
+                    <a href="#">
+                        <img src="/img/_1.png" alt="">
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">8 987 616 10 47</a>
+                        <a href="">specsale1@gmail.com</a>
+                    </li>
+                    <li><a href="#">Заказать товары</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">О компании</a>
+                    </li>
+                    <li>
+                        <a href="#">Преимущества</a>
+                    </li>
+                    <li>
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#">Собственное производство</a>
+                    </li>
+                    <li>
+                        <a href="#">Команда</a>
+                    </li>
+                    <li>
+                        <a href="#">Вопросы</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="position">
+            <div class="icon">
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="header_content">
+                <div class="text_content">
+                    <h1>LightKor - умная подсветка для лестницы с датчиком движения</h1>
+                    <p>Оплата при получении полного комплекта товара через 24 часа.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fa-solid fa-certificate"></i><span>Собственное производство</span></a>
+                        <a href="#"><i class="fa-solid fa-plane-up"></i><span>Доставка</span></a>
+                        <div class="theme-switch">
+                            <h6 style="font-size: 35px; padding-top: 10px;">Включить свет</h6>
+                            <input type="checkbox" id="toggle" class="toggle-checkbox">
+                            <label for="toggle" class="toggle-label"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="img_content">
+                    <div class="icon"></div>
+                </div>
+            </div>
+
+            <div class="position">
+                <div class="icon"></div>
+                <div class="icon"></div>
+            </div>
+        </div>
+    </header>
+
+
+    <script src="https://kit.fontawesome.com/6d25e42a34.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleSwitch = document.getElementById('toggle');
+
+        toggleSwitch.addEventListener('change', () => {
+            document.body.classList.toggle('light', toggleSwitch.checked);
+        });
+    </script>
+</body>
+
+</html>

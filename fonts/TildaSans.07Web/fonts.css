@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'TildaSans';
+    src: url(../TildaSans.07Web/TildaSans-Black/TildaSans-Black.woff2),
+    url(../TildaSans.07Web/TildaSans-Black/TildaSans-Black.woff);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'TildaSans';
+    src: url(../TildaSans.07Web/TildaSans-Bold/TildaSans-Bold.woff2), url(../TildaSans.07Web/TildaSans-Bold/TildaSans-Bold.woff);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'TildaSans';
+    src: url(../TildaSans.07Web/TildaSans-Medium/TildaSans-Medium.woff2), url(../TildaSans.07Web/TildaSans-Medium/TildaSans-Medium.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'TildaSans';
+    src: url(../TildaSans.07Web/TildaSans-Regular/TildaSans-Regular.woff2), url(../TildaSans.07Web/TildaSans-Regular/TildaSans-Regular.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'TildaSans';
+    src: url(../TildaSans.07Web/TildaSans-Light/TildaSans-Light.woff2), url(../TildaSans.07Web/TildaSans-Light/TildaSans-Light.woff);
+    font-weight: 300;
+}
